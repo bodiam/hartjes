@@ -1,21 +1,23 @@
 body {
     background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Bitter", Bitter, Karla, sans-serif;
     color: #333;
 }
 
-.development {
-    position: absolute;
-    width: 149px;
-    height: 149px;
-    top: 0;
-    left: 0;
-    border: 0;
-    z-index: 1000;
-    background-image: url("../images/development_ribbon.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-}
+
+
+/*.development {*/
+    /*position: absolute;*/
+    /*width: 149px;*/
+    /*height: 149px;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*border: 0;*/
+    /*z-index: 1000;*/
+    /*background-image: url("../images/development_ribbon.png");*/
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
 
 .hero-unit {
     margin: 50px auto 0 auto;
@@ -28,6 +30,15 @@ body {
     padding: 60px;
 }
 
+/*.btn-xlarge {*/
+    /*padding: 18px 300px;*/
+    /*font-size: 22px;*/
+    /*line-height: normal;*/
+    /*-webkit-border-radius: 8px;*/
+    /*-moz-border-radius: 8px;*/
+    /*border-radius: 8px;*/
+/*}*/
+
 .hero-unit h1 {
     font-size: 60px;
     line-height: 1;
@@ -39,14 +50,14 @@ body {
     background-color: red;
 }
 
-.hipster {
+
+.hearts {
   display: inline-block;
   width: 463px;
   height: 640px;
-  background-image: url("../images/hipster.jpg");
+  background-image: url("../images/hearts.png");
   background-position: center center;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat;}
 
 .hand {
     cursor: pointer;
