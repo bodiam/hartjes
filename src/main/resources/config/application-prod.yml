@@ -1,0 +1,28 @@
+server:
+    port: 8080
+
+spring:
+    profiles: prod
+    data:
+        mongodb:
+            host: localhost
+            port: 27017
+            databaseName: hartjes
+    
+
+    mail:
+        baseUrl: http://localhost:8080
+
+    thymeleaf:
+        mode: XHTML
+        cache: true
+
+
+metrics:
+    jmx.enabled: true
+    graphite:
+        enabled: false
+        host: localhost
+        port: 2003
+
+

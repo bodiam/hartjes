@@ -1,0 +1,17 @@
+{
+  "generator-jhipster": {
+    "baseName": "hartjes",
+    "packageName": "nl.jworks.hartjes",
+    "packageFolder": "nl/jworks/hartjes",
+    "authenticationType": "cookie",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "atmosphere",
+    "databaseType": "nosql",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "useCompass": false,
+    "frontendBuilder": "grunt",
+    "javaVersion": "8"
+  }
+}
